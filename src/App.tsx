@@ -16,7 +16,7 @@ declare global {
 function App() {
   return (
     <>
-      <h1>Share test 1.0.0</h1>
+      <h1>Share test 1.0.1</h1>
       <div className="card">
         <button
           onClick={() =>
