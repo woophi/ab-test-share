@@ -2,7 +2,7 @@ import "./App.css";
 
 declare global {
   interface Window {
-    GamesWebViewAdapter: {
+    Android: {
       shareData: (
         title: string,
         description: string,
@@ -16,11 +16,11 @@ declare global {
 function App() {
   return (
     <>
-      <h1>Share test 1.0.1</h1>
+      <h1>Share test 1.0.2</h1>
       <div className="card">
         <button
           onClick={() =>
-            window.GamesWebViewAdapter.shareData(
+            window.Android.shareData(
               "test",
               "test desc",
               "https://sun9-42.userapi.com/impg/G65QFMX3rtf71ffHkazr8MwGO3RtXPdvP83CXg/cxXCY-dMSe0.jpg?size=762x509&quality=96&sign=9650f92a968de904a177b9f75acfde25&type=album",
